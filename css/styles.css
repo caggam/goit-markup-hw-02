@@ -58,7 +58,7 @@ a {
     color: #404bbf;
 }
 
-.header-menu-link:focus {
+.header-location-link:focus {
     color: #404bbf;
 }
 
@@ -90,11 +90,11 @@ a {
 }
 
 .hero-btn:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
-.header-menu-link:focus {
-    color: #404bbf;
+.hero-btn:focus {
+    background-color: #404bbf;
 }
 
 /* ================== */
