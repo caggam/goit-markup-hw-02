@@ -1,5 +1,7 @@
 body {
+    color: #434455;
     font-family: 'Roboto', sans-serif;
+    background-color: #FFF;
 }
 
 ul {
@@ -10,46 +12,37 @@ a {
     text-decoration: none;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    overflow: hidden;
-}
 
 /* ========HEADER========== */
 
 .header-logo{
-    color: #2E2F42;
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1,16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .header-logo-iris {
-    color: #4D5AE5;
+    color: #2E2F42;
 }
 
 .header-menu-link{
     color: #2E2F42;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.header-menu-link:hover,
-.header-menu-link:focus,
-.header-menu-link:active {
-    color: #4D5AE5;
+.header-menu-link:hover {
+    color: #404bbf;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
 }
 
 
@@ -57,13 +50,16 @@ a {
     color: #434455;
     font-size: 16px;
     font-style: normal;
-    line-height: 1,5;
+    line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.header-location-link:hover,
-.header-menu-link:active {
-    color: #404BBF;
+.header-location-link:hover{
+    color: #404bbf;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
 }
 
 /* ================== */
@@ -83,16 +79,22 @@ a {
 }
 
 .hero-btn {
+    background-color: #4D5AE5;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
-.hero-btn:hover{
+.hero-btn:hover {
     color: #404BBF;
+}
+
+.header-menu-link:focus {
+    color: #404bbf;
 }
 
 /* ================== */
@@ -141,10 +143,14 @@ a {
     text-transform: capitalize;
 }
 
-.collectiv-list {}
+.collectiv-list {
+    
+}
 
 
-.collectiv-item {}
+.collectiv-item {
+    background-color: #FFF;
+}
 
 
 .collectiv-picture {}
@@ -212,17 +218,17 @@ text-transform: capitalize;
 }
 
 .footer-logo {
-    color: #F4F4FD;
+    color: #4D5AE5;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .footer-logo-iris {
-    color: #4D5AE5;
+    color: #F4F4FD;
 }
 
 .footer-text {
